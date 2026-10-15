@@ -1,0 +1,46 @@
+SESSION09
+Bài 8: Hoàn Thiện file README Dự Án Của Nhóm
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+Phần 1. Điện khuyết.
+
+Dòng H1: điền # (một dấu thăng + dấu cách).
+Mở code block: điền ``` (thành ```bash).
+Đóng code block: điền ```.
+Task List (3 ô): điền - (thành - [x], - [ ], - [x]).
+Hàng phân cách bảng: điền :--- | :--- | :---: (hai cột đầu căn trái, cột Phiên bản căn giữa).
+
+Phần 2. README.md hoàn chỉnh
+markdown
+
+# 📅 Ứng dụng Quản lý Lịch Học Cá nhân
+
+Ứng dụng giúp sinh viên **lên kế hoạch học tập** hiệu quả.
+
+## 🚀 Hướng dẫn Cài đặt
+
+```bash
+git clone https://github.com/nhom5/lich-hoc-app
+cd lich-hoc-app
+```
+
+## ✅ Tính năng đã hoàn thành
+
+- [x] Đăng ký / Đăng nhập tài khoản
+- [ ] Nhắc nhở lịch học qua email
+- [x] Xuất lịch ra file PDF
+
+## 📊 Bảng So sánh Công nghệ
+
+| Công nghệ | Mục đích | Phiên bản |
+| :--- | :--- | :---: |
+| Python | Backend xử lý dữ liệu | 3.11 |
+| Markdown | Viết tài liệu README | - |
+
+
+Bẫy dữ liệu: xóa hàng phân cách bảng
+Bảng không còn hiển thị dạng bảng, chỉ hiện thành chữ thường với các dấu | lộ ra.
+Lý do: parser dựa vào hàng phân cách (---) để nhận ra đây là bảng. Thiếu hàng này thì các dòng bị coi là đoạn văn bình thường.

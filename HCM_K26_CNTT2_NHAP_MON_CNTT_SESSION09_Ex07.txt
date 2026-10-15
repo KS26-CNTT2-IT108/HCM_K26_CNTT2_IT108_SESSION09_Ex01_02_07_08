@@ -1,0 +1,35 @@
+SESSION09
+Bài 7: Gỡ Lỗi Trang Hướng Dẫn Nộp Bài Của Giảng Viên
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+Phần 1. Phân tích.
+
++ Lỗi 1: ###Lưu ý quan trọng. Thiếu dấu cách sau ###, nên không thành tiêu đề mà hiện nguyên chữ ###.
++ Lỗi 2: -Bước 1... đến -Bước 4.... Thiếu dấu cách sau -, nên không thành danh sách, chỉ hiện chữ thường có dấu - dính liền, không có dấu chấm đầu dòng.
++ Lỗi 3: [GitHub](github.com). Thiếu https://, nên link bị hiểu là đường dẫn tương đối và bấm vào không đến đúng GitHub.
++ Lỗi 4: **HNKS25CNTT1_IT101_Session08 (Bước 2). Mở ** nhưng không đóng, nên không in đậm và hiện nguyên dấu **.
++ Lỗi 5: *Nộp muộn sẽ bị trừ 50% điểm!**. Mở 1 dấu * nhưng đóng bằng 2 dấu ** (không cân đối), nên không nghiêng/đậm đúng và còn dấu * thừa.
++ Lỗi 6: Thiếu dòng trống giữa Các bước nộp bài: và danh sách. Một số trình render gộp danh sách vào đoạn văn.
+
+Phần 2. Hoàn thiện.
+markdown
+## Hướng Dẫn Nộp Bài Tập - Session 08
+
+### Lưu ý quan trọng
+
+Các bước nộp bài:
+
+- Bước 1: Tạo tài khoản GitHub tại [GitHub](https://github.com)
+- Bước 2: Tạo repository mới đặt tên theo định dạng **HNKS25CNTT1_IT101_Session08**
+- Bước 3: Upload file .md của bài làm lên repository
+- Bước 4: Copy đường dẫn và nộp lên Portal
+
+> Deadline: Chủ nhật 23:59 — *Nộp muộn sẽ bị trừ 50% điểm!*
+
+Bẫy dữ liệu: quên gõ https://
+Trình render hiểu github.com là đường dẫn tương đối, tức là trang nằm trong chính website hiện tại.
+Ví dụ: đang ở https://thay.github.io/baitap/ thì bấm link sẽ dẫn đến https://thay.github.io/baitap/github.com, là địa chỉ không tồn tại nên báo lỗi 404.
+Vì vậy luôn phải viết đầy đủ https:// ở đầu link.

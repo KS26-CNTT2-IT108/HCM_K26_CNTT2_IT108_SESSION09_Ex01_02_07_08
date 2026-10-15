@@ -1,0 +1,25 @@
+SESSION09
+Bài 1 : Xử lý xung đột tài liệu trên GitHub
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+Phần 1.Phân tích.
+
++ Dùng file Word (.docx) để lưu trên Git: đây là file nhị phân nên GitHub không xem trực tiếp được, và sửa 1 dấu phẩy Git vẫn báo xung đột cả file.
++ Nghĩ Markdown chỉ là chữ thô nên không chuyên nghiệp: thực tế Markdown có tiêu đề, danh sách, bảng, link và hiển thị rất gọn đẹp (ví dụ README.md).Vì sao Markdown an toàn, nhẹ hơn
++ Chỉ chứa chữ nên nhẹ, mở được ở mọi nơi. Git Diff so sánh theo từng dòng nên chỉ ra đúng chỗ sửa. Mất 1 byte: Word hỏng cả file, Markdown chỉ lỗi 1 ký tự.
+
+Phần 2. Hoàn thiện.
+markdown
+
+# Giới thiệu dự án
+
+Dự án **DoAn** của nhóm 05 là một website bán hàng nhỏ.
+
+## Chức năng chính
+
+- Tìm kiếm sách
+- Thêm vào giỏ hàng
+- Thanh toán online
